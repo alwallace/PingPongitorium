@@ -1,0 +1,31 @@
+@charset "utf-8";
+#Mainbody {
+	height: auto;
+	margin-top: 10px;
+}
+.width {
+	width: 1000px;
+}
+#Banner {
+	height: 100px;
+}
+#Mainmenu {
+	height: 300px;
+	width: 200px;
+	margin-top: 25px;
+	float: right;
+	margin-right: 10px;
+}
+#Leaderboard {
+	float: left;
+	height: 300px;
+	width: 200px;
+	margin-top: 25px;
+	margin-left: 10px;
+}
+
+
+#BodyInfo {
+	height: 350px;
+	margin-top: 15px;
+}
