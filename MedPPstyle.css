@@ -5,6 +5,11 @@
 }
 .width {
 	width: 1000px;
+	margin: auto;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
 }
 #Banner {
 	height: 100px;
@@ -15,13 +20,26 @@
 	margin-top: 25px;
 	float: right;
 	margin-right: 10px;
+	border: thick double #000084;
 }
+#Mainmenu p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-transform: uppercase;
+}
+
 #Leaderboard {
 	height: 300px;
 	width: 200px;
 	margin-top: 25px;
 	margin-left: 10px;
+	float: left;
+	border: medium solid #B30000;
 }
+#Leaderboard p {
+	font-style: italic;
+	text-decoration: underline;
+}
+
 
 
 #BodyInfo {
@@ -32,10 +50,11 @@
 #Headlines {
 	height: 300px;
 	width: 535px;
-	float: left;
-	margin-top: 25px;
-	margin-left: 230px;
 	height: 300px;
+	position: relative;
+	left: 8px;
+	margin-top: 25px;
+	margin-left: 220px;
 }
 
 	float: left;
@@ -72,7 +91,11 @@ body {
 #Footer {
 	height: 30px;
 	margin-top: 5px;
+	float: none;
 }
 #LoginBox {
 	height: 400px;
+}
+input {
+
 }
