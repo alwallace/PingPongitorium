@@ -17,7 +17,6 @@
 	margin-right: 10px;
 }
 #Leaderboard {
-	float: left;
 	height: 300px;
 	width: 200px;
 	margin-top: 25px;
@@ -28,4 +27,40 @@
 #BodyInfo {
 	height: 350px;
 	margin-top: 15px;
+	text-align: center;
+}
+#Headlines {
+	float: left;
+	height: 300px;
+	width: 530px;
+	margin-top: 25px;
+	margin-left: 235px;
+}
+
+
+body {
+	background-color: #666666;
+}
+#Login {
+	height: 350px;
+	width: 400px;
+	margin-top: 25px;
+	margin-left: 45px;
+}
+#LoginPassword {
+}
+
+#Createaccount {
+	height: 350px;
+	width: 400px;
+	margin-top: 25px;
+	margin-right: 45px;
+	float: right;
+}
+#Footer {
+	height: 30px;
+	margin-top: 5px;
+}
+#LoginBox {
+	height: 400px;
 }
