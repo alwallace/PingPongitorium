@@ -30,7 +30,6 @@
 	text-align: center;
 }
 #Headlines {
-<<<<<<< HEAD
 	height: 300px;
 	width: 535px;
 	float: left;
@@ -39,7 +38,6 @@
 	height: 300px;
 }
 
-=======
 	float: left;
 	height: 300px;
 	width: 530px;
@@ -48,7 +46,6 @@
 }
 
 
->>>>>>> Fixed changes
 body {
 	background-color: #666666;
 }
