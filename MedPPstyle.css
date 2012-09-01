@@ -57,6 +57,7 @@
 	width: 200px;
 	margin-top: 15px;
 	margin-right: 15px;
+	text-align: center;
 }
 
 #Headlines {
@@ -81,6 +82,28 @@
 	margin-top: 25px;
 	margin-left: 45px;
 }
+#PersonalStats  {
+	height: 200px;
+	width: 700px;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+#AdvancedStatsBox {
+	height: 300px;
+	width: 980px;
+	margin-left: 4px;
+	margin-top: 20px;
+	border: thick solid #000000;
+}
+#TeamMenu {
+	float: right;
+	height: 200px;
+	width: 200px;
+	margin-right: 20px;
+	margin-top: 20px;
+	border: thin double #00008C;
+}
+
 body {
 	background-color: #999999;
 }
