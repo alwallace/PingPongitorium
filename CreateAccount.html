@@ -1,0 +1,27 @@
+<html>
+
+<?php
+
+	echo('test!');
+
+	$in_username = $_POST['CreateUsername'];
+	$in_password = $_POST['CreatePassword'];
+	$in_confirm_password = $_POST['CreateConfirmPassword'];
+	$in_fullname = $_POST['CreateName'];
+	$in_email = $_POST['CreateEmail'];
+	$in_phone = $_POST['CreatePhone'];
+
+	echo($in_username);
+
+
+	$dbhandle = new SQLite3('masterdb.sqlite');
+	$results = $dbhandle->query("SELECT id, username, password FROM login_info WHERE username='alex' AND password='password' LIMIT 1");
+
+	echo('print?');
+	while ($row = $results->fetchArray()) {
+		echo('test');
+	}
+
+?>
+
+</html>
