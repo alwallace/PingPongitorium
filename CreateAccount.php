@@ -24,6 +24,9 @@
 	$last_row_id = $dbhandle->lastInsertRowID();
 	$dbhandle->exec("INSERT INTO user (login_info_id, first_name, last_name, email_address, phone_number) VALUES ('$last_row_id', '$in_firstname', '$in_lastname', '$in_email', '$in_phone')");
 
+
+	# forward to the account page after user creation
+	header("Location: UAMedPingPongitoriumHome.html");
 ?>
 
 </html>
